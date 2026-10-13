@@ -2,7 +2,7 @@ lessons.splice(0,lessons.length,
  {id:'lesson1',title:'생성형 AI는 어떻게 일하는가',time:'30분',desc:'생성 원리·강점·한계를 비교하며 AI의 성격을 이해합니다.'},
  {id:'lesson2',title:'AI와 대화하는 5가지 기술',time:'40분',desc:'모든 업무에 통하는 맥락·목적·자료·형식·검증 기술을 익힙니다.'},
  {id:'lesson3',title:'AI 업무 변환 실험실',time:'50분',desc:'메모·파일·이미지·표를 여러 업무 결과물로 변환합니다.'},
- {id:'lesson4',title:'생성형 AI 종합활용 챌린지',time:'55분',desc:'질문·생성·비판·수정의 AI 협업 과정을 보고서 사례에 종합 적용합니다.'},
+ {id:'lesson4',title:'10분 보고서 초안 완성 실습',time:'55분',desc:'질문·생성·비판·수정의 AI 협업 과정을 보고서 사례에 종합 적용합니다.'},
  {id:'lesson5',title:'AI 오류 통제와 업무 확장',time:'45분',desc:'환각·보안·책임을 점검하고 NotebookLM으로 근거 기반 보고서를 완성합니다.'}
 );
 
@@ -93,7 +93,7 @@ window.aiCourseMeta={
  lesson1:{kicker:'PART 1 · AI 이해',title:'생성형 AI는 어떻게 일하는가',desc:'검색과 생성의 차이부터 강점·환각·업무 역할까지 체험합니다.',content:()=>moduleContent('lesson1')},
  lesson2:{kicker:'PART 2 · AI 대화법',title:'AI와 대화하는 5가지 기술',desc:'맥락·목적·자료·형식·검증을 모든 업무에 통하는 협업 기술로 익힙니다.',content:()=>lesson2Content()},
  lesson3:{kicker:'PART 3 · 업무 변환',title:'AI 업무 변환 실험실',desc:'메모·파일·이미지·표를 요약·메일·체크리스트·분석으로 바꿉니다.',content:()=>moduleContent('lesson3')},
- lesson4:{kicker:'PART 4 · 종합실습',title:'생성형 AI 종합활용 챌린지',desc:'AI가 질문하고 초안을 만들고 스스로 비판하게 한 뒤, 보고서 사례에 적용합니다.',content:()=>moduleContent('lesson4')},
+ lesson4:{kicker:'PART 4 · 종합실습',title:'10분 보고서 초안 완성 실습',desc:'AI가 질문하고 초안을 만들고 스스로 비판하게 한 뒤, 보고서 사례에 적용합니다.',content:()=>moduleContent('lesson4')},
  lesson5:{kicker:'PART 5 · 안전한 확장',title:'AI 오류 통제와 업무 확장',desc:'환각·보안·책임을 정리하고 보고서 밖의 반복업무로 확장합니다.',content:()=>moduleContent('lesson5')}
 };
 
@@ -181,13 +181,13 @@ lessons.splice(0,lessons.length,
  {id:'lesson1',title:'생성형 AI는 어떻게 일하는가',time:'25분',desc:'생성 원리·강점·한계를 비교하며 AI의 성격을 이해합니다.'},
  {id:'lesson2',title:'AI와 대화하는 5가지 기술',time:'35분',desc:'맥락·목적·자료·형식·검증 기술을 익힙니다.'},
  {id:'lesson3',title:'자료 분석과 Deep Research',time:'40분',desc:'자료를 여러 업무 결과물로 바꾸고 Deep Research 조사보고서의 출처까지 검증합니다.'},
- {id:'lesson4',title:'생성형 AI 종합활용 챌린지',time:'40분',desc:'보고서 초안을 만들고 원자료와 비교·검토합니다.'},
+ {id:'lesson4',title:'10분 보고서 초안 완성 실습',time:'40분',desc:'보고서 초안을 만들고 원자료와 비교·검토합니다.'},
  {id:'lesson5',title:'NotebookLM 소스 기반 실습',time:'80분',desc:'소스 등록부터 인용 확인·충돌 탐지·Studio 보고서 검토까지 충분히 실습합니다.'}
 );
 
 Object.assign(window.aiCourseMeta,
  {lesson3:{kicker:'PART 3 · 자료 조사와 검증',title:'자료 분석과 Deep Research',desc:'보고서 초안을 만들기 위해 자료 읽기·변환을 연습한 뒤, Deep Research 조사보고서의 출처를 검증합니다.',content:()=>moduleContent('lesson3')},
- lesson4:{kicker:'PART 4 · 종합실습',title:'생성형 AI 종합활용 챌린지',desc:'보고서 작성기로 초안을 만든 뒤 원자료와 비교·검토합니다.',content:()=>moduleContent('lesson4')},
+ lesson4:{kicker:'PART 4 · 종합실습',title:'10분 보고서 초안 완성 실습',desc:'보고서 작성기로 초안을 만든 뒤 원자료와 비교·검토합니다.',content:()=>moduleContent('lesson4')},
  lesson5:{kicker:'PART 5 · NOTEBOOKLM',title:'NotebookLM 소스 기반 실습',desc:'소스 등록·질문·인용 확인·충돌 탐지·Studio 보고서 검토를 한 차시로 완주합니다.',content:()=>moduleContent('lesson5')}});
 
 const comprehensiveStep=courseSteps.lesson4.find(x=>x.title==='최종 보고서 만들기');
