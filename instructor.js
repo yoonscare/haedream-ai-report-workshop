@@ -38,7 +38,7 @@ const studentViews=[
   ['index.html?page=lesson3&step=1','PART 3 · 파일 읽히기'],
   ['index.html?page=lesson3&step=2','PART 3 · 이미지 분석'],
   ['index.html?page=lesson3&step=3','PART 3 · 표와 비교 분석'],
-  ['index.html?page=lesson3&step=4','PART 3 · 업무 변환 선택 실험'],
+  ['index.html?page=lesson3&step=4','PART 3 · 업무자료로 보고서 초안 만들기'],
   ['index.html?page=lesson3&step=5','PART 3 · 변환 결과 비교·공유'],
   ['index.html?page=lesson3&step=6','PART 3 · Deep Research 조사보고서 만들기'],
   ['index.html?page=lesson3&step=7','PART 3 · Deep Research 결과보고서 검증하기'],
