@@ -29,7 +29,7 @@ lesson2Steps.splice(0,lesson2Steps.length,
 [AI 초안]
 노후 센서 고장으로 라벨프린터가 정지해 출하가 20분 지연됐다. 라벨 46장을 재출력했으며 다음 달까지 새 장비로 교체하기로 했다.</div><button class="button orange copy-module-text" data-copy="아래 원자료와 AI 초안을 대조하세요. 초안을 바로 고치지 말고 각 문장을 ① 원자료로 확인됨 ② 근거 없음 ③ 추가 확인 필요로 판정한 표를 만드세요. 빠진 정보와 모호한 표현도 별도로 적으세요.\n\n[원자료]\n9월 24일 포장 2라인 라벨프린터가 정지했다. 재부팅 후 작동했으며 출하 준비가 20분 지연되고 라벨 46장을 재출력했다. 최근 5일간 세 번째 발생이며 원인은 아직 확인되지 않았다.\n\n[AI 초안]\n노후 센서 고장으로 라벨프린터가 정지해 출하가 20분 지연됐다. 라벨 46장을 재출력했으며 다음 달까지 새 장비로 교체하기로 했다.">전체 프롬프트 복사</button></section>`},
  {time:'7분',title:'이어 묻기의 힘',body:`<div class="timed-activity"><div><b>1차</b><span>초안 생성</span></div><div><b>2차</b><span>빠진 정보 질문</span></div><div><b>3차</b><span>독자 관점 비판</span></div><div><b>4차</b><span>최종 수정</span></div></div><div class="facilitator"><b>연습</b><span>첫 답변을 끝으로 보지 않고 최소 두 번 이어 묻습니다.</span></div>`},
- {time:'5분',title:'5기술 미니챌린지',body:`<div class="quiz"><h2>다음 요청에서 빠진 기술은?</h2><div class="prompt-box">아래 회의 메모만 사용해 팀장에게 전달할 결정사항 표를 만들어줘.</div><div class="quiz-options"><button data-quiz="wrong">맥락·자료·형식</button><button data-quiz="correct" data-answer="정답입니다. 근거 없는 내용과 누락을 점검할 검증 기준이 빠졌습니다.">검증 기준</button><button data-quiz="wrong">목적·독자</button></div><div id="quiz-feedback" class="quiz-feedback">정답을 선택하세요.</div></div>`}
+ {time:'5분',title:'프롬프트에서 빠진 요소 찾기',body:`<div class="quiz"><h2>다음 요청에서 빠진 요소는?</h2><div class="prompt-box">아래 회의 메모만 사용해 팀장에게 전달할 결정사항 표를 만들어줘.</div><div class="quiz-options"><button data-quiz="wrong">맥락·자료·형식</button><button data-quiz="correct" data-answer="정답입니다. 근거 없는 내용과 누락을 점검할 검증 기준이 빠졌습니다.">검증 기준</button><button data-quiz="wrong">목적·독자</button></div><div id="quiz-feedback" class="quiz-feedback">정답을 선택하세요.</div></div>`}
 );
 
 courseSteps.lesson3=[

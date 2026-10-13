@@ -33,7 +33,7 @@ const studentViews=[
   ['index.html?page=lesson2&step=3','PART 2 · 결과 형식'],
   ['index.html?page=lesson2&step=4','PART 2 · 오류 초안 진단'],
   ['index.html?page=lesson2&step=5','PART 2 · 이어 묻기'],
-  ['index.html?page=lesson2&step=6','PART 2 · 미니챌린지'],
+  ['index.html?page=lesson2&step=6','PART 2 · 프롬프트에서 빠진 요소 찾기'],
   ['index.html?page=lesson3&step=0','PART 3 · 하나의 자료, 다섯 결과'],
   ['index.html?page=lesson3&step=1','PART 3 · 파일 읽히기'],
   ['index.html?page=lesson3&step=2','PART 3 · 이미지 분석'],
