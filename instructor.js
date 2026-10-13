@@ -55,8 +55,7 @@ const studentViews=[
   ['index.html?page=lesson5&step=4','PART 5 · 업무에 바로 쓰는 NotebookLM 실습 7가지'],
   ['index.html?page=lesson5&step=5','PART 5 · 짧은 소설로 스토리 슬라이드 만들기'],
   ['index.html?page=lesson5&step=6','PART 5 · NotebookLM Studio에서 보고서 만들기'],
-  ['index.html?page=lesson5&step=7','PART 5 · NotebookLM 결과 검토와 최종 편집'],
-  ['index.html?page=lesson5&step=8','PART 5 · 7일 AI 실행 약속']
+  ['index.html?page=lesson5&step=7','PART 5 · 결과 검토와 강의 마무리']
 ];
 const scenes=[...document.querySelectorAll('.scene')];
 const studentFrame=document.querySelector('#student-frame');

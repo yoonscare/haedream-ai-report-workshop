@@ -166,7 +166,7 @@ courseSteps.lesson5=[
  (notebookSevenPractices.body=notebookSevenPractices.body.replace('<div class="prompt-box good">',`${notebookPracticeDownloads}<div class="prompt-box good">`),notebookSevenPractices),
  storySlideGemPractice,
  notebookStudioOnly,
- {time:'17분',title:'NotebookLM 결과 검토와 최종 편집',body:`<div class="workflow"><div><b>01</b>핵심 주장 3개 고르기</div><div><b>02</b>각 인용의 원문 열기</div><div><b>03</b>근거 없음·충돌·확인 필요 표시</div><div><b>04</b>확인된 내용만 최종본에 반영</div></div><div class="callout"><b>완료 기준</b><br>보고서를 만드는 것보다 핵심 주장 3개의 인용을 직접 확인하고, 근거 없는 문장 또는 자료 간 충돌을 한 가지 이상 표시하면 완료입니다.</div>`}
+ {time:'17분',title:'결과 검토와 강의 마무리',body:`<div class="workflow"><div><b>01</b>핵심 주장 3개 고르기</div><div><b>02</b>각 인용의 원문 열기</div><div><b>03</b>근거 없음·충돌 표시</div><div><b>04</b>확인된 내용만 반영</div></div><div class="callout"><b>오늘의 마무리</b><br>AI에게 일을 맡길 때는 <b>자료를 정확히 주고, 결과를 원문과 비교하고, 최종 판단은 사람이 합니다.</b></div>`}
 ].filter(Boolean);
 
 lessons.splice(0,lessons.length,
